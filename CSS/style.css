@@ -1,4 +1,16 @@
 .first-bg{
     background-image: url(../img/Hexagon.svg);
-
+    background-size: cover;
+}
+.container-fluid{
+    height: 950px;
+}
+.white{
+    color: white;
+}
+.nav-center{
+    padding-top: 20%;
+}
+.text1{
+    padding-top: 15%;
 }
