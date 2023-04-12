@@ -1,16 +1,42 @@
-.first-bg{
+.first-bg {
     background-image: url(../img/Hexagon.svg);
     background-size: cover;
 }
-.container-fluid{
+
+.container-fluid {
     height: 950px;
 }
-.white{
+
+.white {
     color: white;
 }
-.nav-center{
-    padding-top: 20%;
+
+.nav-center {
+    padding-top: 23%;
 }
-.text1{
+
+.text1 {
     padding-top: 15%;
 }
+
+.second-bg {
+    background-image: url(../img/World\ Map.svg);
+    background-size: cover;
+}
+
+.pulse:hover {
+    animation: pulse 2s ease 0s infinite normal none;
+}
+
+@keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+    
+  }
