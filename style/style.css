@@ -25,10 +25,10 @@
 }
 
 .pulse:hover {
- animation: animation1 2s ease 0s infinite normal none;
+ animation: pulse 2s ease 0s infinite normal none;
 }
 
-@keyframes animation1 {
+@keyframes pulse {
   0% {
     transform: scale(1);
   }
