@@ -1,6 +1,17 @@
 .first-bg {
     background-image: url(../img/Hexagon.svg);
     background-size: cover;
+} 
+
+.second-bg {
+  background-image: url(../img/World\ Map.svg);
+  background-size: cover;
+}
+
+.third-bg{
+  background-color: #0E2A47;
+background-image:url(../img/work.svg) ;
+background-size: cover;
 }
 
 .container-fluid {
@@ -19,10 +30,6 @@
     padding-top: 15%;
 }
 
-.second-bg {
-    background-image: url(../img/World\ Map.svg);
-    background-size: cover;
-}
 
 .pulse:hover {
  animation: pulse 2s ease 0s infinite normal none;
