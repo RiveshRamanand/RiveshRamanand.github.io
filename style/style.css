@@ -1,55 +1,61 @@
 .first-bg {
-    background-image: url(../img/Hexagon.svg);
-    background-size: cover;
-} 
+  background-image: url(../img/Hexagon.svg);
+  background-size: cover;
+}
 
 .second-bg {
   background-image: url(../img/World\ Map.svg);
   background-size: cover;
 }
 
-.third-bg{
+.third-bg {
   background-color: #0E2A47;
-background-image:url(../img/work.svg) ;
-background-size: cover;
+  background-image: url(../img/work.svg);
+  background-size: cover;
 }
 
 .container-fluid {
-    height: 950px;
+  height: 950px;
 }
 
 .white {
-    color: white;
+  color: white;
 }
 
 .nav-center {
-    padding-top: 23%;
+  padding-top: 23%;
 }
 
 .text1 {
-    padding-top: 15%;
+  padding-top: 15%;
 }
 
 
 .pulse:hover {
- animation: pulse 2s ease 0s infinite normal none;
+  animation: pulse 2s ease 0s infinite normal none;
 }
 
 @keyframes pulse {
   0% {
     transform: scale(1);
   }
+
   50% {
     transform: scale(1.1);
   }
+
   100% {
     transform: scale(1);
   }
-  
+
 }
-  .nav {
-    overflow: hidden;
-    position: fixed;
-    top: 40%;
-    width: 100%;
-  }
+
+.nav {
+  overflow: hidden;
+  position: fixed;
+  top: 40%;
+  width: 100%;
+}
+.box{
+  background-color: #0E2A47;
+}
