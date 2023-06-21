@@ -27,7 +27,7 @@
   padding-top: 15%;
 }
 
-
+/* navbar animation */
 .slide-right:hover {
   animation: slide 2s ease 0s infinite alternate none;
 }
@@ -48,6 +48,7 @@
   top: 40%;
   width: 100%;
 }
+/* socials circle interaction */
 .box{
   background-color: #0E2A47;
 }
